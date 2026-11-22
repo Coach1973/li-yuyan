@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>李羽妍 Iris Lee｜以科技連結美學，讓學習成為生命轉型的力量</title>
+<meta name="description" content="李羽妍 Iris Lee，R.C. Aesthetics AI Lab 創辦人、AI 數位與美學應用講師。讓科技有溫度，讓美學走進生活；讓每個人都能透過學習，重新看見自己的價值。">
+<meta property="og:title" content="李羽妍 Iris Lee｜以科技連結美學，讓學習成為生命轉型的力量">
+<meta property="og:description" content="R.C. Aesthetics AI Lab 創辦人、AI 數位與美學應用講師。科技為筆，美學為墨。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://event.bymyway.com/curated/li-yuyan/images/IMG-001.webp">
+<style>
+:root{--clay:#c06b4a;--clay-d:#8a4632;--gold:#d9a441;--gold-d:#9a7a2e;--cream:#faf3ec;--cream2:#f3e7db;--ink:#3a2a26;--muted:#6d5a52;--line:#e8d5c6;--white:#fffdfb}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;background:var(--cream);color:var(--ink);font-size:20px;line-height:1.75;overflow-x:clip}
+img{height:auto;max-width:100%;display:block}
+small{font-size:inherit}
+a{color:var(--clay-d)}
+section[id]{scroll-margin-top:84px}
+h1,h2,h3{line-height:1.35;font-weight:900;color:var(--ink)}
+h2{font-size:clamp(30px,4vw,44px);text-align:center}
+h2 .hl{color:var(--clay)}
+.eyebrow{display:inline-block;font-size:20px;font-weight:700;letter-spacing:.12em;color:var(--clay-d);background:#f7e3d3;border:1px solid var(--line);border-radius:999px;padding:.3rem 1rem}
+.lead{color:var(--muted);font-size:20px;max-width:720px;margin:0 auto;text-align:center}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(250,243,236,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1120px;margin:0 auto;padding:0 24px;height:68px;display:flex;align-items:center;gap:28px}
+.brand{font-size:24px;font-weight:900;color:var(--ink);text-decoration:none;cursor:pointer;white-space:nowrap}
+.brand span{color:var(--clay)}
+.brand .en{font-size:20px;color:var(--gold-d);font-weight:700;margin-left:6px}
+.nav-links{display:flex;gap:26px;margin-left:auto}
+.nav-links a{font-size:20px;color:var(--ink);text-decoration:none;font-weight:700;white-space:nowrap}
+.nav-links a:hover{color:var(--clay)}
+.btn{display:inline-block;background:var(--clay);color:#fff;font-size:20px;font-weight:900;text-decoration:none;padding:.7rem 1.6rem;border-radius:999px;border:2px solid var(--clay);max-width:100%;overflow-wrap:anywhere;cursor:pointer}
+.btn:hover{background:var(--clay-d);border-color:var(--clay-d)}
+.btn.ghost{background:transparent;color:var(--clay-d);border-color:var(--clay)}
+.btn.ghost:hover{background:#f7e3d3}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#3a2a26}
+.btn.gold:hover{background:#c8922f;border-color:#c8922f}
+/* hero */
+.hero{padding:150px 0 80px;background:radial-gradient(900px 500px at 85% 10%,#f7ddc2 0%,transparent 60%),radial-gradient(700px 420px at 5% 90%,#f3d9c8 0%,transparent 55%),var(--cream)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(46px,6vw,72px);margin:.4rem 0 .2rem}
+.hero h1 .sub{display:block;font-size:.62em;color:var(--clay);letter-spacing:.06em}
+.hero .tagline{font-size:clamp(22px,2.6vw,28px);font-weight:900;color:var(--clay-d);margin:14px 0 10px}
+.hero .quote{font-size:20px;color:var(--muted);border-left:4px solid var(--gold);padding-left:16px;margin:18px 0 22px;max-width:560px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
+.chip{font-size:20px;font-weight:700;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.35rem 1rem;color:var(--ink)}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-photo{position:relative;max-width:380px;margin-left:auto;width:100%}
+.hero-photo .arch{border-radius:999px 999px 28px 28px;overflow:hidden;border:6px solid #fff;box-shadow:0 24px 60px rgba(138,70,50,.25);transform-origin:center;transition:transform .6s ease}
+.hero-photo img{width:100%;aspect-ratio:295/430;object-fit:cover;object-position:50% 15%}
+.hero-photo .badge{position:absolute;left:-14px;bottom:-8px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:.7rem 1.1rem;font-size:20px;font-weight:900;color:var(--clay-d);box-shadow:0 10px 30px rgba(138,70,50,.18)}
+.hero-photo .badge small{display:block;font-size:20px;color:var(--muted);font-weight:700}
+/* about */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.about-grid img{border-radius:24px;box-shadow:0 18px 44px rgba(138,70,50,.18)}
+.about-grid h2{text-align:left}
+.about-grid p{margin:16px 0;color:var(--ink)}
+.about-grid p b{color:var(--clay-d)}
+.edu{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}
+.edu div{font-size:20px;padding:.3rem 0}
+.edu div::before{content:"✦ ";color:var(--gold-d)}
+/* numbers */
+.stats{background:var(--clay);color:#fff;border-radius:28px;padding:56px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stat .count{font-size:112px;font-weight:900;line-height:1;color:#fff}
+.stat .count span{font-size:inherit}
+.stat .lbl{font-size:20px;font-weight:700;margin-top:10px;color:#ffe9d6}
+/* skills */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:48px}
+.card{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 12px 32px rgba(138,70,50,.10)}
+.card img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.card .bd{padding:26px 28px 30px}
+.card h3{font-size:24px;margin-bottom:8px}
+.card p{font-size:20px;color:var(--muted)}
+/* teach */
+.teach{background:var(--cream2)}
+.teach-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;margin-top:48px}
+.teach-grid img{border-radius:24px;box-shadow:0 18px 44px rgba(138,70,50,.18)}
+.tl{list-style:none}
+.tl li{position:relative;padding:0 0 26px 34px;border-left:3px solid var(--gold);margin-left:8px}
+.tl li::before{content:"";position:absolute;left:-11px;top:8px;width:19px;height:19px;border-radius:50%;background:var(--clay);border:3px solid #fff;box-shadow:0 0 0 2px var(--gold)}
+.tl li:last-child{padding-bottom:0}
+.tl b{font-size:22px;display:block}
+.tl span{font-size:20px;color:var(--muted)}
+/* salon */
+.salon-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:48px}
+.salon-grid img{border-radius:24px;box-shadow:0 18px 44px rgba(138,70,50,.18)}
+.post{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px 26px;margin-bottom:20px}
+.post .date{font-size:20px;font-weight:700;color:var(--gold-d)}
+.post h3{font-size:24px;margin:6px 0}
+.post p{font-size:20px;color:var(--muted)}
+.post a{font-size:20px;font-weight:900}
+/* contact */
+.contact{background:var(--clay-d);color:#fff;text-align:center;border-radius:28px;padding:64px 32px}
+.contact h2{color:#fff}
+.contact p{color:#ffe9d6;max-width:640px;margin:14px auto 30px}
+.contact .ways{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+.contact .way{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);border-radius:16px;padding:18px 26px;font-size:20px;font-weight:700}
+.contact .way a{color:#fff;text-decoration:none;overflow-wrap:anywhere}
+.contact .note{margin-top:26px;font-size:20px;color:#ffe9d6}
+.contact .note a{color:#fff;font-weight:900}
+/* footer */
+footer{background:#2e201c;color:#e8d5c6;padding:56px 0 40px;font-size:20px}
+footer .f-in{max-width:1120px;margin:0 auto;padding:0 24px;text-align:center}
+footer a{color:#f3d9a8;text-decoration:none}
+footer .f-links{margin:16px 0;line-height:2}
+footer .f-links a{margin:0 10px;white-space:nowrap}
+/* dots + fab */
+.dots{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:10px}
+.dots a{width:12px;height:12px;border-radius:50%;background:#cbb3a4;display:block}
+.dots a.on{background:var(--clay)}
+.fab{position:fixed;right:18px;bottom:20px;z-index:40;background:var(--gold);color:#3a2a26;font-weight:900;font-size:20px;text-decoration:none;padding:.7rem 1.3rem;border-radius:999px;box-shadow:0 10px 26px rgba(138,70,50,.3)}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.curtain{position:fixed;inset:0;background:var(--cream);z-index:100;pointer-events:none;transition:transform .8s ease;transform:translateY(0)}
+.curtain.go{transform:translateY(-100%)}
+@media(max-width:860px){
+  body{font-size:20px}
+  .nav-links{display:none}
+  .brand .en{display:none}
+  .btn{padding:.7rem 1.1rem}
+  section{padding:64px 0}
+  .hero{padding:120px 0 56px}
+  .hero-grid,.about-grid,.teach-grid,.salon-grid{grid-template-columns:1fr;gap:32px}
+  .cards{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr);padding:40px 20px}
+  .stat .count{font-size:72px}
+  .dots{display:none}
+  .hero-photo .badge{left:8px;bottom:16px}
+}
+</style>
+</head>
+<body>
+<div class="curtain" id="curtain"></div>
+<nav>
+  <div class="nav-in">
+    <a class="brand" id="brandTop" href="#">李羽妍<span>・Iris Lee</span></a>
+    <div class="nav-links">
+      <a href="#about">關於她</a><a href="#skills">專長</a><a href="#teach">教學實績</a><a href="#salon">專欄沙龍</a><a href="#contact">聯絡邀約</a>
+    </div>
+    <a class="btn" href="#contact" style="margin-left:auto">邀約合作</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">R.C. Aesthetics AI Lab 創辦人</span>
+      <h1>李羽妍<span class="sub">Iris Lee</span></h1>
+      <p class="tagline">專業講師｜以科技連結美學，讓學習成為生命轉型的力量</p>
+      <p class="quote">「讓科技有溫度，讓美學走進生活；讓每個人都能透過學習，重新看見自己的價值。」</p>
+      <div class="chips">
+        <span class="chip">AI 數位與美學應用講師</span>
+        <span class="chip">產業人才投資方案及大學推廣教育課程講師</span>
+        <span class="chip">職人品牌重塑與公益倡議者</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn" href="#salon">看看她的專欄</a>
+        <a class="btn ghost" href="#contact">邀約合作</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="arch" id="heroArch"><img src="images/photo-iris-portrait.webp" alt="李羽妍 Iris Lee 肖像" width="295" height="430"></div>
+      <div class="badge">科技有溫度<small>美學走進生活</small></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about-grid reveal">
+    <img src="images/IMG-001.webp" alt="晨光窗邊的書桌，筆電亮著金光，旁邊放著水彩盤與一杯茶" width="500" height="1000" loading="lazy">
+    <div>
+      <span class="eyebrow">關於她</span>
+      <h2>科技是筆，<span class="hl">美學是墨</span></h2>
+      <p>羽妍相信，<b>科技不該是冷冰冰的工具</b>。她把生成式 AI 帶進美學與生活裡，教人用 AI 做設計、做品牌、做內容，讓原本覺得「我不會」的人，也能做出第一件屬於自己的作品。</p>
+      <p>她同時是一位教育者：從大學推廣教育、職業培訓到社區教學，她走進不同的教室，陪不同年齡的學員一起學。對她來說，<b>學習不是考試，而是一次生命轉型</b>——學會一項新本事，就多一個重新看見自己的角度。</p>
+      <p>她也把這份相信帶進公益：推動數位平權，陪高齡者與社區據點一起玩美學，讓科技的溫度，走到每一個人手邊。</p>
+      <div class="edu">
+        <div>國立屏東科技大學 熱帶農業暨國際合作研究所 畢業</div>
+        <div>國立屏東科技大學 時尚設計與管理系 碩士班研修中</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="numbers" style="padding-top:0">
+  <div class="wrap">
+    <div class="stats reveal">
+      <div class="stat"><div class="count"><span data-count="4">4</span></div><div class="lbl">專長領域</div></div>
+      <div class="stat"><div class="count"><span data-count="3">3</span></div><div class="lbl">教學場域</div></div>
+      <div class="stat"><div class="count"><span data-count="2">2</span></div><div class="lbl">專欄精選</div></div>
+      <div class="stat"><div class="count"><span data-count="1">1</span></div><div class="lbl">句信念</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:0">
+<div class="wrap">
+<h2 class="reveal">她的四項<span class="hl">專長</span></h2>
+<p class="lead reveal">從工具、美學、職場到共學，四條路都通往同一個地方：讓每個人都能用 AI，做出屬於自己的東西。</p>
+<div class="cards">
+<article class="card reveal">
+<img src="images/IMG-002.webp" alt="筆電螢幕流出彩色水彩光帶，桌上放著水彩盤與畫筆" width="1000" height="667" loading="lazy">
+<div class="bd"><h3>生成式 AI 工具與數位創作應用</h3><p>從提示詞開始，手把手帶你做出第一件數位創作。AI 不是取代你的手，而是幫你的想法先長出形狀。</p></div>
+</article>
+<article class="card reveal">
+<img src="images/IMG-004.webp" alt="雙手捧著平板，上面是一幅 AI 生成的花卉水彩畫" width="1000" height="667" loading="lazy">
+<div class="bd"><h3>AI 美學設計與個人品牌建立</h3><p>科技是筆、美學是墨。幫職人把專業變成看得見的品牌，讓客人第一眼就記住你。</p></div>
+</article>
+<article class="card reveal">
+<img src="images/IMG-005.webp" alt="靈感牆上釘著陶土紅與金色的水彩色卡、布料樣本與乾燥花" width="1000" height="667" loading="lazy">
+<div class="bd"><h3>職場 AI 應用與數位能力培訓</h3><p>辦公室工具、流程效率、文案與簡報，讓 AI 變成每天上班的好幫手，而不是下班後的功課。</p></div>
+</article>
+<article class="card reveal">
+<img src="images/IMG-006.webp" alt="女子背影在明亮工作室裡用手機三腳架錄影，旁邊有筆電與環形燈" width="1000" height="667" loading="lazy">
+<div class="bd"><h3>成人學習、社區教育與跨世代共學</h3><p>從長輩到青年，不同年齡一起學。每個人學得慢一點沒關係，學會了，就是自己的。</p></div>
+</article>
+</div>
+</div>
+</section>
+
+<section id="teach" class="teach">
+<div class="wrap">
+<h2 class="reveal">她走過的<span class="hl">教室</span></h2>
+<p class="lead reveal">大學、職場、社區、偏鄉據點——她的課開在哪裡，AI 的溫度就走到哪裡。</p>
+<div class="teach-grid">
+<div class="reveal">
+<img src="images/IMG-003.webp" alt="明亮教室裡，講師指著螢幕上的彩色 AI 作品，學員們帶著筆電專心聽課" width="1000" height="667" loading="lazy">
+<div style="height:24px"></div>
+<img src="images/IMG-007.webp" alt="不同年齡的五個人圍著木桌一起學，桌上有筆電、茶壺與可頌" width="1000" height="667" loading="lazy">
+</div>
+<ul class="tl reveal">
+<li><b>文化部婦女人才培訓計畫</b><span>執行人與講師，陪婦女學員用 AI 找回職場的手感。</span></li>
+<li><b>文化部文化平權與原民人才培力計畫</b><span>把數位工具帶進原民人才培力，讓文化與科技一起走。</span></li>
+<li><b>產業人才投資方案課程講師</b><span>為在職朋友開 AI 轉型課，下班學得會，上班用得上。</span></li>
+<li><b>大學推廣教育課程講師</b><span>在大學推廣教育開課，把 AI 變成通識、變成日常。</span></li>
+<li><b>屏東縣新媒體社群網路工作職業工會《AI辦公室工具運用課程》講師</b><span>2026 年，學員有主婦、記者、上班族與研究生，連續三個星期三晚間一起學。（波新聞報導）</span></li>
+<li><b>社會實踐（SDGs）</b><span>推動數位平權，陪高齡者與社區據點一起玩美學服務。</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="salon">
+<div class="wrap">
+<h2 class="reveal">羽妍．<span class="hl">智造所</span></h2>
+<p class="lead reveal">她在方格子寫的專欄，把 AI 工具寫成一篇篇看得懂、用得上的生活提案。</p>
+<div class="salon-grid">
+<div class="reveal">
+<div class="post">
+<div class="date">2026/02/11</div>
+<h3>【新年新祝福】遇見你的專屬 AI 春聯設計天使</h3>
+<p>用 Gemini 做一張專屬自己的春聯斗方，把新年的心願與祝福貼在門楣上。科技也能充滿溫度，AI 也能成為傳遞祝福的工具。</p>
+<a href="https://vocus.cc/post/698c253bfd89780001e8f7d3" target="_blank" rel="noopener">閱讀原文 →</a>
+</div>
+<div class="post">
+<div class="date">2026/02/12</div>
+<h3>【月光族救星】明明有賺錢，月底還是吃土？</h3>
+<p>Google 官方分享 10 個 Gemini AI 財務管理技巧，揪出無感浪費與財務黑洞，讓辛苦錢真正留住。</p>
+</div>
+</div>
+<img class="reveal" src="images/IMG-008.webp" alt="長髮女子背影走向灑滿晨光的街道，肩上背著筆電包" width="667" height="1000" loading="lazy">
+</div>
+</div>
+</section>
+
+<section id="contact" style="padding-top:0">
+<div class="wrap">
+<div class="contact reveal">
+<h2>想請羽妍去你的教室嗎？</h2>
+<p>企業內訓、大學推廣、社區課程、婦女培力——只要是想讓一群人學會 AI 的地方，她都願意走一趟。</p>
+<div class="ways">
+<div class="way">Email<br><a href="mailto:irislee66@gmail.com">irislee66@gmail.com</a></div>
+<div class="way">電話<br><a href="tel:0906907806">0906-907-806</a></div>
+</div>
+<p class="note">她也是「AI 技能培訓班」的講師，<a href="https://event.bymyway.com/curated/ai-skill-training/" target="_blank" rel="noopener">看看那堂課 →</a></p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="f-in">
+<div>本網頁由 Muse AI 製作</div>
+<div class="f-links">
+<a href="https://www.bymyway.com/">出品人 大樹教練</a>
+<a href="https://event.bymyway.com/curated/rongtree/">友善連結 榮樹下</a>
+<a href="https://event.bymyway.com/curated/skyteam/">顧問師天團・人才軍火庫</a>
+</div>
+<div>李羽妍 Iris Lee｜R.C. Aesthetics AI Lab</div>
+</div>
+</footer>
+
+<div class="dots" id="dots">
+<a href="#top" data-s="top"></a><a href="#about" data-s="about"></a><a href="#skills" data-s="skills"></a><a href="#teach" data-s="teach"></a><a href="#salon" data-s="salon"></a><a href="#contact" data-s="contact"></a>
+</div>
+<a class="fab" href="#contact">邀約合作</a>
+
+<script>
+/* 簾幕 */
+window.addEventListener('load',function(){setTimeout(function(){document.getElementById('curtain').classList.add('go')},150)});
+/* 表頭回頂 */
+document.getElementById('brandTop').addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});setTimeout(function(){if(window.scrollY>2)window.scrollTo({top:0,behavior:'instant'})},700)});
+/* reveal */
+var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+/* 數字跳動 */
+var cio=new IntersectionObserver(function(es){es.forEach(function(en){if(!en.isIntersecting)return;cio.unobserve(en.target);var el=en.target.querySelector('[data-count]');if(!el)return;var end=+el.dataset.count,t0=null;function tick(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(tick);else el.textContent=end}requestAnimationFrame(tick)})},{threshold:.5});
+document.querySelectorAll('.stat').forEach(function(el){cio.observe(el)});
+/* 捲動縮框開場 */
+var arch=document.getElementById('heroArch');
+window.addEventListener('scroll',function(){var y=window.scrollY;if(y<600){var s=1-y/600*.06;arch.style.transform='scale('+s+')'}},{passive:true});
+/* 段落圓點 */
+var secs=['top','about','skills','teach','salon','contact'];
+var dots=document.querySelectorAll('#dots a');
+function onScroll(){var y=window.scrollY+120,cur='top';secs.forEach(function(id){var el=document.getElementById(id);if(el&&el.offsetTop<=y)cur=id});dots.forEach(function(d){d.classList.toggle('on',d.dataset.s===cur)})}
+window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+/* 不留孤字（尾巴不在最後面的元素跳過，避免搬錯句序） */
+document.querySelectorAll('h1,h2,h3,.tagline,.quote,.lead,.card p,.tl b').forEach(function(el){
+var nodes=[...el.childNodes].filter(function(n){return n.nodeType===3&&n.textContent.trim().length>=2});
+if(!nodes.length)return;
+var last=nodes[nodes.length-1];
+if(last!==el.lastChild)return;
+var txt=last.textContent;
+var cut=Math.max(txt.lastIndexOf('，'),txt.lastIndexOf('、'),txt.lastIndexOf('。'),txt.lastIndexOf(' '));
+if(cut<1)return;
+var tail=txt.slice(cut+1);
+if(!tail.trim()||tail.length>12)return;
+last.textContent=txt.slice(0,cut+1);
+var sp=document.createElement('span');
+sp.style.whiteSpace='nowrap';
+sp.textContent='\u00A0'+tail;
+el.appendChild(sp);
+});
+</script>
+</body>
+</html>
